@@ -41,8 +41,6 @@ class Counter:
 
 class Decider:
     """Given an (A, B) option, requests that the LLM make a choice."""
-    # TODO: have exception loop here
-    # TODO: Rewrite for two choices.
     def __init__(self):
         self.counter = Counter()
 
